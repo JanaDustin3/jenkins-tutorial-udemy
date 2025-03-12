@@ -7,7 +7,7 @@ pipeline{
     stages{
         stage('tools'){
             steps{
-               bat dir
+               bat 'dir'
                bat ''' 
                 java --version
                 git --version
