@@ -13,7 +13,7 @@ pipeline{
             script{
                 dir
                 bat java --version
-                bat cd jenkins-tutorial-udemy/maven-samples/single-module
+                bat cd maven-samples/single-module
                 bat mvn clean install
 
             }
