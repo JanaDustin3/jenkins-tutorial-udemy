@@ -21,9 +21,9 @@ pipeline{
                    dir('./maven-samples/single-module'){
                    echo "executing second stage"
                    bat 'mvn test'
-              
                 }             
             }
+        }
         stage('build'){
             steps{
                 echo "executing third stage"
