@@ -18,11 +18,10 @@ pipeline{
         }
         stage('test'){
             steps{
-                bat '''
                    dir('./maven-samples/single-module'){
                    echo "executing second stage"
-                    mvn test
-                '''
+                   bat 'mvn test'
+              
                 }             
             }
         stage('build'){
