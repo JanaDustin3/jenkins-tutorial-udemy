@@ -24,7 +24,7 @@ pipeline {
                 ok 'Do'
                 parameters {
                     string(name: 'TARGET_ENVIRONMENT', value: 'DEV', description: 'Target deployment environment')
-                    string(name: 'TARGET_ENVIRONMENT', value: 'DEV', description: 'Target deployment environment')
+                    string(name: 'TARGET_ENVIRONMENT', value: 'QA', description: 'Target deployment environment')
                 }
             }
             steps {
