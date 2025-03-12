@@ -23,8 +23,8 @@ pipeline {
                 message 'Deploy?'
                 ok 'Do'
                 parameters {
-                    string(name: 'TARGET_ENVIRONMENT', value: 'DEV', description: 'Target deployment environment')
-                    string(name: 'TARGET_ENVIRONMENT', value: 'QA', description: 'Target deployment environment')
+                    string(name: 'TARGET_ENVIRONMENT', defaulValue: 'rod',choices: ['DEV', 'QA'], description: 'Target deployment environment')
+                
                 }
             }
             steps {
