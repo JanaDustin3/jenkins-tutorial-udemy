@@ -7,18 +7,10 @@ pipeline{
     stages{
         stage('tools'){
             steps{
-                bat 'dir'
-              bat '''
+                dir
                 java --version
                 git --version
                 mvn --version 
-            '''
-            }
-        }
-        stage(test){
-            steps{
-                bat 'dir(./maven-samples/single-module)'
-                mvn test
             }
         }
     }
