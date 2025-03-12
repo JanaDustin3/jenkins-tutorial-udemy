@@ -24,6 +24,12 @@ pipeline{
                 }             
             }
         }
+        stage('build'){
+            steps{
+                echo "executing third stage"
+                bat 'mvn -f ./maven-samples/single-module/pom.xml clean package'
+            }
+        }
     }
 }
    
