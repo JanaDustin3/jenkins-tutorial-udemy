@@ -27,6 +27,7 @@ pipeline{
             script{
                 dir
                 bat java --version
+                bat cd "%WORKSPACE%"
                 bat cd maven-samples/single-module
                 bat mvn clean install
 
