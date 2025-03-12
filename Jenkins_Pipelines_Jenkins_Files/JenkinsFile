@@ -7,6 +7,20 @@ pipeline{
     }
 
     stages{
+        stage('Checkout') {
+            steps {
+                script {
+                    // Clone the Git repository's master branch
+                    def gitRepoUrl = 'https://github.com/JanaDustin3/jenkins-tutorial-udemy.git'
+
+                    checkout([$class: 'GitSCM', 
+                        branches: [[name: '*/main']], 
+                        userRemoteConfigs: [[url: gitRepoUrl]], 
+                        extensions: [[$class: 'CleanBeforeCheckout'], [$class: 'CloneOption', noTags: false, shallow: true, depth: 1]]
+                    ])
+                }
+            }
+        }
         stage('build'){
             steps{
                 echo "first stage"
