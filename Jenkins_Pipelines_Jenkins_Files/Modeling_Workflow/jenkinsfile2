@@ -23,7 +23,7 @@ pipeline {
                 message 'Deploy?'
                 ok 'Do'
                 parameters {
-                    string(name: 'TARGET_ENVIRONMENT', defaulValue: 'rod',choices: ['DEV', 'QA'], description: 'Target deployment environment')
+                    choice(name: 'TARGET_ENVIRONMENT', defaultValue: 'rod', choices: ['DEV', 'QA'], description: 'Target deployment environment')
                 
                 }
             }
