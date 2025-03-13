@@ -2,7 +2,7 @@ pipeline{
     agent any
 
     parameters{
-        choice(name: 'Release type', choice: ['Dev', 'QA'], description: 'this will select the type of release')
+        choice(name: 'Release type', choices: ['Dev', 'QA'], description: 'this will select the type of release')
     }
 
     environment {
