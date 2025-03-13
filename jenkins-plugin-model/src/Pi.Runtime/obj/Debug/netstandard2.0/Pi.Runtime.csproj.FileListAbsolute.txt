@@ -1,0 +1,11 @@
+C:\Users\janam\jenkins-tutorial-udemy\jenkins-plugin-model\src\Pi.Runtime\bin\Debug\netstandard2.0\Pi.Runtime.deps.json
+C:\Users\janam\jenkins-tutorial-udemy\jenkins-plugin-model\src\Pi.Runtime\bin\Debug\netstandard2.0\Pi.Runtime.dll
+C:\Users\janam\jenkins-tutorial-udemy\jenkins-plugin-model\src\Pi.Runtime\bin\Debug\netstandard2.0\Pi.Runtime.pdb
+C:\Users\janam\jenkins-tutorial-udemy\jenkins-plugin-model\src\Pi.Runtime\obj\Debug\netstandard2.0\Pi.Runtime.csproj.AssemblyReference.cache
+C:\Users\janam\jenkins-tutorial-udemy\jenkins-plugin-model\src\Pi.Runtime\obj\Debug\netstandard2.0\Pi.Runtime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janam\jenkins-tutorial-udemy\jenkins-plugin-model\src\Pi.Runtime\obj\Debug\netstandard2.0\Pi.Runtime.AssemblyInfoInputs.cache
+C:\Users\janam\jenkins-tutorial-udemy\jenkins-plugin-model\src\Pi.Runtime\obj\Debug\netstandard2.0\Pi.Runtime.AssemblyInfo.cs
+C:\Users\janam\jenkins-tutorial-udemy\jenkins-plugin-model\src\Pi.Runtime\obj\Debug\netstandard2.0\Pi.Runtime.csproj.CoreCompileInputs.cache
+C:\Users\janam\jenkins-tutorial-udemy\jenkins-plugin-model\src\Pi.Runtime\obj\Debug\netstandard2.0\Pi.Runtime.sourcelink.json
+C:\Users\janam\jenkins-tutorial-udemy\jenkins-plugin-model\src\Pi.Runtime\obj\Debug\netstandard2.0\Pi.Runtime.dll
+C:\Users\janam\jenkins-tutorial-udemy\jenkins-plugin-model\src\Pi.Runtime\obj\Debug\netstandard2.0\Pi.Runtime.pdb

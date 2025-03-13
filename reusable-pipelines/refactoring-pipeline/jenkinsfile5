@@ -1,5 +1,10 @@
 pipeline{
     agent any
+
+    parameters{
+        choice(name: 'Release type', choice: ['Dev', 'QA'], description: 'this will select the type of release')
+    }
+
     environment {
         VERSION = '1.0.0'
         RELEASE_VERSION = '2.3.4'
@@ -8,12 +13,7 @@ pipeline{
         stage('tools'){
             steps{
                 echo "executing first stage"
-                bat 'dir'
-                bat '''
-                java --version
-                git --version
-                mvn --version 
-                '''
+                getTools()
             }
         }
         stage('test'){
@@ -28,8 +28,23 @@ pipeline{
             steps{
                 echo "executing third stage"
                 bat 'mvn -f ./maven-samples/single-module/pom.xml clean package'
+                echo "The current version : ${VERSION}"
+            }
+        }
+        stage('Publish') {
+            steps {
+                archiveArtifacts('**/*.jar')
             }
         }
     }
 }
+    void getTools(){
+        bat 'dir'
+                bat '''
+                java --version
+                git --version
+                mvn --version 
+                '''
+    }
+
    

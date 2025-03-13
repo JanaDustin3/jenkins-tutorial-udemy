@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Pi.Web.props" />
+</Project>

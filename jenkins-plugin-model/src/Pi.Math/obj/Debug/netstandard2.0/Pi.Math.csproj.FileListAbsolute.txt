@@ -1,0 +1,11 @@
+C:\Users\janam\jenkins-tutorial-udemy\jenkins-plugin-model\src\Pi.Math\bin\Debug\netstandard2.0\Pi.Math.deps.json
+C:\Users\janam\jenkins-tutorial-udemy\jenkins-plugin-model\src\Pi.Math\bin\Debug\netstandard2.0\Pi.Math.dll
+C:\Users\janam\jenkins-tutorial-udemy\jenkins-plugin-model\src\Pi.Math\bin\Debug\netstandard2.0\Pi.Math.pdb
+C:\Users\janam\jenkins-tutorial-udemy\jenkins-plugin-model\src\Pi.Math\obj\Debug\netstandard2.0\Pi.Math.csproj.AssemblyReference.cache
+C:\Users\janam\jenkins-tutorial-udemy\jenkins-plugin-model\src\Pi.Math\obj\Debug\netstandard2.0\Pi.Math.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janam\jenkins-tutorial-udemy\jenkins-plugin-model\src\Pi.Math\obj\Debug\netstandard2.0\Pi.Math.AssemblyInfoInputs.cache
+C:\Users\janam\jenkins-tutorial-udemy\jenkins-plugin-model\src\Pi.Math\obj\Debug\netstandard2.0\Pi.Math.AssemblyInfo.cs
+C:\Users\janam\jenkins-tutorial-udemy\jenkins-plugin-model\src\Pi.Math\obj\Debug\netstandard2.0\Pi.Math.csproj.CoreCompileInputs.cache
+C:\Users\janam\jenkins-tutorial-udemy\jenkins-plugin-model\src\Pi.Math\obj\Debug\netstandard2.0\Pi.Math.sourcelink.json
+C:\Users\janam\jenkins-tutorial-udemy\jenkins-plugin-model\src\Pi.Math\obj\Debug\netstandard2.0\Pi.Math.dll
+C:\Users\janam\jenkins-tutorial-udemy\jenkins-plugin-model\src\Pi.Math\obj\Debug\netstandard2.0\Pi.Math.pdb
